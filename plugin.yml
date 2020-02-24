@@ -3,6 +3,6 @@ main: me.Zachary_Peculier.SIEASpawn.Spawn
 author: Zachary_Peculier
 version: 1.0
 commands:
-  start:
+  spawn:
     description: Sends player to spawn
     usage: /<command>
