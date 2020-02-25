@@ -39,7 +39,7 @@ public class Spawn extends JavaPlugin
 			if(ent == null)
 			{
 				player.sendMessage(ChatColor.GOLD + "Welcome to the SafeZone!");
-				player.teleport(player.getWorld().getSpawnLocation());
+				player.teleport(getServer().getWorld("factionseb2").getSpawnLocation());
 			}
 			else
 			{
